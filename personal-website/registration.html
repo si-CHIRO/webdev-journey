@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Form Pendaftaran</h1>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Laki-laki</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Perempuan</label>
+                </div>
+                <br>
+                <section>
+                    <p>Hobi:</p>
+                    <div>
+                        <input type="checkbox" id="coding" name="hobbies" value="coding">
+                        <label for="coding">Coding</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                        <label for="gaming">Gaming</label>
+                    </div>
+                </section>
+                <br>
+                <label for="country">Negara:</label>
+                <select name="country" id="country">
+                    <option value="">Select Country</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+                <br>
+                <section>
+                    <label for="alamat">Alamat:</label><br>
+                    <textarea name="alamat" id="alamat" cols="30" rows="5" placeholder="Your address here..."></textarea>
+                </section>
+                <br>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
